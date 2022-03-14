@@ -54,18 +54,18 @@ header > p {
     color: white;
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    max-width: 500px; /*aqui configura o tamanho maximo do texto, porém ao fazer isso não é mais possivel utilizar text align center pois se tornou um bloco, assim sendo necessario utilizar margin: auto;*/
+    max-width: 600px; /*aqui configura o tamanho maximo do texto, porém ao fazer isso não é mais possivel utilizar text align center pois se tornou um bloco, assim sendo necessario utilizar margin: auto;*/
     padding-right: 10px; /* é pra que na hora que a pagina for utilizada em tamanho menor o preenchimento impeça que o texto grude na margem*/
     padding-left: 10px;
     margin: auto;
+    padding-bottom: 50px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
 }
 
 nav {
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192
-    );
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.192);
 }
 
 nav > a {
